@@ -23,4 +23,4 @@ RUN npm install && npm run build
 RUN mkdir -p database && touch database/database.sqlite
 
 # Perintah untuk menjalankan server
-CMD php artisan serve --host=0.0.0.0 --port=${PORT:-8000}
+CMD php artisan migrate --force && php artisan serve --host=0.0.0.0 --port=${PORT:-8000}
