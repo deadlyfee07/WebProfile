@@ -24,7 +24,7 @@
 
 <footer>
     <div class="container">
-        <p>© 2026 Fadhli Muhammad. Dibuat dengan ❤️.</p>
+        <p>© 2026 Fadhli Muhammad.</p>
     </div>
 </footer>
 
